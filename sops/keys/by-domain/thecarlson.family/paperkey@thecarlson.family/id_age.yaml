@@ -1,0 +1,70 @@
+type: age
+principle: paperkey@thecarlson.family
+private-key: ENC[AES256_GCM,data:yU37rIv6Es5L6bXbUHJR32TfOiibhPvefXxQjPaw3YUeqz+tEj14TdYgcYQDvfZoX0Edc3auPie8bps8ZJnNj63nFo7NxfmN8NpA,iv:eXfiiglvsPo6UWdDZIlFaraF1RMcrCFylbvqWQrTTbI=,tag:S+e4VZ2pRa9/gXzIf1G0rQ==,type:str]
+public-key: |
+    age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3MEo4Y3JWUnBIR1ordHZT
+            WXhubkJ1UndSSXlQTkp5WVZLOENhZU50RDFVCllnT1B5UWZmb0J5aG9HUWVqRVRx
+            U1ZYRmZ1dVllTUZiY2lmY1pxbFAzc0UKLS0tIGZRMkI1RUJ3ZWJ3RG1YNGJxUEc5
+            U2s2OCtNbWNZaE5RRGV6TzA4alNuME0KB8168PgJqj78QaB5KiCafUTbMAX+SKd/
+            yFmXU4wzZh8W3SGJr8i4XfsphgluLv8tG27TbLPsz1GdMoxXsNH16A==
+            -----END AGE ENCRYPTED FILE-----
+        - recipient: age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBjYjZtTS94ZDZ1ZDFnVk1V
+            MHdVSVNwRE56b2pMcWVXM3hJMm5SYmxrbXpJCmpwUjBHNitOQlpXS291YzM2YnZ0
+            NW5SaXQ0Y1hTOXprL2VVa3lyalN6NzQKLS0tIFdSOFJHNU12VFZ4Q3ZueDBUVWJD
+            VStsZkc3aGZTSy9oYWV4WnhjTjJCOVUKiGSUYhyrtBCPaWQitpMB9yvnzk4k+mYI
+            9+Ccn7rHypTxvVj080lsAEP/2aAr43mhtWpo5n+wSJ6zioj/vOB94w==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-09-01T22:17:22Z"
+    mac: ENC[AES256_GCM,data:nnDZBMNFpGbaYJgq1J2d86JBJPaSYs/U0P4PBiIujhHd/Q93dmBXhpiAHUafBtrxuf1EutoWKXbtoByxphGVZYSRwlOIL8cqpXjQ0D72Z7g4PfFna1QvZ0yaYvGcV9kafuj4SsktxonraUu5PM0RFkHH8M5pEQDAP1mpILGz75E=,iv:87eVsXveEDr9vcQV2i56li2ySbCe8xILEmYFHVtVSqo=,tag:8tJXQ+xeeCMK8L6OZwoJEg==,type:str]
+    pgp:
+        - created_at: "2023-09-01T22:17:21Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQGMA+K07t94qMggAQv9F7WqX7JXY3aH0XFzFSPVk50oCWHfqNpljVSSlnDSdoav
+            iA6yi+woBc9enW2IxrWFfGLULAT/ybJxYJjVS6oH2kNUb825NOMcPPq9jOpZYnJL
+            Y/mpeOgViubjwKjnUIWbcxlbojWNZC16tG5OiDDri4uI7Nd1ZTTXHSMJHJFN8fIo
+            2vrD8WtosNPXYeMGiX0A60FVR226Jdb80R968yMexAj81nuy6gZwq99ojKwPcLWX
+            LjLVgF1X21WxvG8pWfyNx+DxJ8deXk3KR3iTmV73iBQAv6j/CnCbA1iSOcfSLLvs
+            qAvs5WoWh2w4QgAatsMlOJ0FAkJTKJq/sm+a1d0F4plnSVGy9AvYJIXiJ5h19qsK
+            ZEe0WLsztZMKcizx8u/g15FEncjhMAUewGHjFIPKnli+SYWU/uVv8nL2Ei/0IwNt
+            QxGI4FwGrCj/hDekV+c7yZZP/9FUb/uuZnnPL1xhidrIqnvnzg90NL7F2Vixdv0S
+            mfABhEGTV4/SzbkD7Qcc1GgBCQIQyOrhenZU/0gCctkkulWD5Kwncs2u72ma0RYO
+            EIgME1pIzkR9AmTxu77UMQSBFViAzevw9CX+qcsNZYO0HonbCuCTFK5LH1oHDC11
+            PwgE5P7uxye2XilkScSCchH7B5w5Dg3ZAQ==
+            =r4ZG
+            -----END PGP MESSAGE-----
+          fp: 7ADB02229B0F91BE91109FFB9686EC3B7435D942
+        - created_at: "2023-09-01T22:17:21Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQGMAwLsT3f3V+gPAQwArOGHPgvJtOUEyqgp8q2XSwaCBduc2dF6iERA66F1Oohm
+            E5rPTmYNL1yXUuLl9s04cF8SqssLLyfZI7ruTEfXJF4AKXkjdzBhqC/5zsQEemAu
+            Yfez9GLrhTC+FnrVaqDPZ0SzSEKtMuTTRz5Ri+iN5AtsUHAWd2CSo2EBZLR392sm
+            fzqrqvdg+zOwXda9jwS39pXNj7LDTBS0G2Te/UvVYQHhEEYT+yKn1sxp8yqS510b
+            Vw/Liz8ArkS9MJUuXqsVnfvBVNkn9ZfFni4Rueng2jA/mtRXtvsPlcec6KouhbP5
+            54Fs0/8DlJGrWu0r/y4k967evQznKVxT/Dr1Z/PMaxptrVrcExpf9zqGd7gso9ru
+            6qwReFkFfdj5kpU2Be4Dfjsook0gYQuY8DvfX52Kz7AJtiBMjLcxWaPNZmVxWABU
+            kN38syXmohnm6um+gHfkqTR4dEL4aL21r2UwS+KfQxvRyi8kHbquYT9B40+t7zZ8
+            v3k/aIuvznLnXk1BD5g+1GgBCQIQOSIfEdcVau2mlYX3symKmHtjihDXZG1LelU7
+            x3ncfLr7vd6CyChjDIL1fLTwGQSRpx8ROEpAxu2UDrcD2do/u7JE2XcS+Q45tBGP
+            MgPYWpzc4DfHWtIxscG6nY3HPo6adAL2uQ==
+            =aesE
+            -----END PGP MESSAGE-----
+          fp: 47EE5DA257D80E4516327A83F6B36473C28DB65E
+    encrypted_regex: ^(private-key)$
+    version: 3.7.3

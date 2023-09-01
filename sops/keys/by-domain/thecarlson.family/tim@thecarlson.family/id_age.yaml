@@ -1,0 +1,70 @@
+type: age
+principle: tim@thecarlson.family
+private-key: ENC[AES256_GCM,data:Gu5wvGmcEs6hCobjdc1NuX5s3aXlPFUpRQViAgkZ9fWxQcsdTOP94sWNwjYk9VvpuyqgQcRKxg/4unxPltDzyIIUPH3kgoMBTywe,iv:7qeHj1r0SH4MB8y95qAanx8RMZbOi3T6SuverjUq+mk=,tag:TGVB43SHNzdbTuqEuOIdZg==,type:str]
+public-key: |
+    age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBhV2RURnFobWM5WWQ4STVD
+            MnAxNFF0azEwY1YxN0RlY1FXM3VtQTNhN3hJCmRLWS96OE5OS1orcVF5WUh2eXo4
+            VVZmZ1k4V2lORE9JOTd6Y1ZCV0x0MkEKLS0tIEZhdnhxVDNxNyt0eHllb01NMGpq
+            NFl0b2JPSDg4N3JVVkJkL2M1WUxjOFUKlJDqkDhGY+yX69C9Pxt51nXVnw591Ca1
+            NpHn/FP+ug31e912bOAWnjtRVbfloedK3xAlJdpaQJPDGTjCaLxXwQ==
+            -----END AGE ENCRYPTED FILE-----
+        - recipient: age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBLMDdJR0lreHVoVW91M2J6
+            ZFd3ckUzbWtRS2ZzQlV1dUx3eGZPeU9GVkQwCjZEeHhsUjcvVlBPNUkydkROTEpR
+            VG9ySHNCMWZvV0k1OVdQVzJjRHMyVXMKLS0tIDZ2RFlwQTBWVW9CT003eUdkbVFM
+            Sitpa2hDeVoyL2Z1cGkzL0JQbmhQQVUKCmTdlRDcGZvmERxB4Rmz8hffE7kfvnqe
+            8qR98SsiDcFwqLJbFOFExvkQAf09THsX3IexNWvBRycJc+BauBu07g==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-09-01T21:45:55Z"
+    mac: ENC[AES256_GCM,data:SYrO0HcCmXZP1GBtJABMwENVX1JdGza3Za1nCxOAjP7qBR7v7199G7SytbYCPhU57KPk4ANA7a5rSdETPB9ylAE1HXxsLZlIVmkYqXoh8KFT3t9q1b3Xo3xpsGUyQMD5cpgCMi4Mg79YttSjbT2RO1UMF8vU8vEKKc1FvLT4CIQ=,iv:P21WGOguoHfYm1P/p3XpohhgUo2VEns0Jh1oIP8SmPg=,tag:tsVDQVPhwHWFhAFqA3uv8g==,type:str]
+    pgp:
+        - created_at: "2023-09-01T21:45:54Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQGMA+K07t94qMggAQwAoENqijE/d0cnqbOq+L7qMkqZNbXHRI+8GPAmOsJ7rclp
+            2D2Yj8zVaVN3/CAn37vo/B3BrPOgLVlpEpXLiDSQ04yg2g39ZzNWR7TOe1qrRMgE
+            hyoGFsVpKj9CChO2bzanK86pXoogxRWTRDIz2n1sec1LCqOCxaG1k210tMCgFUKe
+            kas/BLTX2FRzGFCrjMKu/XZK4jnRuZPZPBwOGDmCn6+zbGVB/sukqSIUiHXsITN/
+            quaeipGAuNlkPn0pnk1a5rRy7WgoGRI83ERD7y6LdXoqfo4VDXKwkb7APNgNp129
+            /hUR3zZ34RWmIFuJyVjlRtyuQnF32DWYEr2eT8Ejg/ZiPkq+58v2R/vIQiSXVMzd
+            BNKPHB23Ug+QIA2Qvhw+jxDSJf9wtgu1bVHzdIlS614nfjUTo3qT+r5uYf+spdXy
+            6HkjzswgcrgThotnUv6/A7IHJwll6RWUn3J4DGvM9vDllZUZ46uxKhsBbmc9L1a4
+            PtSEvWZbamCKJuen67Im1GgBCQIQvzk34dY+36kIz/Trvm/dpt7LBWk4CfgwI8fn
+            nzKnHSXKeVEfaEVUe5VwTWE5EKImUi5A5vBo0fhBTH24VaUbe5k8EpAOyHC3EvFJ
+            Bvtm6l+9B5ujE/n0mTZXlJfwi5SWoeqCwg==
+            =MnP6
+            -----END PGP MESSAGE-----
+          fp: 7ADB02229B0F91BE91109FFB9686EC3B7435D942
+        - created_at: "2023-09-01T21:45:54Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQGMAwLsT3f3V+gPAQv7BUNNn8Jpb/AIOA3Sqyw/KuKdOhflEPweiIXEhR+QdTQk
+            iP+qoOYrEc2e3rOlkKHS63JKZ3U40lJ0jP1+Mz7Bavzip9McAG6p0yfLPM6dZ2fE
+            qkBXH60tfkx5fRbg8yj6873mqx9cziF4I99HPJEdoXamxKVw+GPcNao+dhC1zu8G
+            ykQzMy6g8K8viXVmo7d6U+nDL+qTE6JW4cXTv+p5ecHPUnNVIELZtzGBqfXw8wWi
+            4b/TIzR8jx4Qmam0styHUmZjlWzTqapBHu2SOfXD0+HW4YeqVUYnQtJagJWEKlL8
+            KZyMdmDUwxTqcniD56R7st5P0SHfG2UKsMhkc4GF66gKvP0E0wBvXqvRIplRDe5v
+            OIfxz1UVMzRZ6Ktf2sZlJeT9d3Kljgzd75vROUj+kEms3i9ZZlhLzjm5wiLuDE+1
+            oh1hWanzDTQjlML105Wh/3deA2u8nkzPn5QCB4MZZbtKPFUz6LYZq3FhCpjS2h4X
+            YdAKjZ2HIxAqvrw06CxS1GgBCQIQuPvvnojhupvAF0WJgOjr3mkWcCcfrOvmXx6i
+            LHXPFWEtYnPlpdXerEpVsiOm7eNH8MhrwMYzO0PjYOBq9UEg1/t8+/TkASo0KbZq
+            xf9j2YJqFUgBkkQqXmWkuG7CZZLne7mkvw==
+            =PzQW
+            -----END PGP MESSAGE-----
+          fp: 47EE5DA257D80E4516327A83F6B36473C28DB65E
+    encrypted_regex: ^(private-key)$
+    version: 3.7.3
