@@ -1,14 +1,48 @@
 # creation rules are evaluated sequentially, the first match wins
 creation_rules:
   - path_regex: keys/by-domain/thecarlson.family/tim@thecarlson.family/*
-    pgp: "7ADB02229B0F91BE91109FFB9686EC3B7435D942,47EE5DA257D80E4516327A83F6B36473C28DB65E" # tim@thecarlson.family,paperkey@thecarlson.family
-    age: "age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz,age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63" # tim@thecarlson.family,paperkey@thecarlson.family
+
+    # tim@thecarlson.family,
+    # paperkey@thecarlson.family 
+    pgp: >-
+      7ADB02229B0F91BE91109FFB9686EC3B7435D942,
+      47EE5DA257D80E4516327A83F6B36473C28DB65E
+    
+    # tim@thecarlson.family,
+    # paperkey@thecarlson.family 
+    age: >-
+      age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz,
+      age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63
 
   - path_regex: keys/by-domain/thecarlson.family/paperkey@thecarlson.family/*
-    pgp: "7ADB02229B0F91BE91109FFB9686EC3B7435D942,47EE5DA257D80E4516327A83F6B36473C28DB65E" # tim@thecarlson.family,paperkey@thecarlson.family
-    age: "age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz,age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63" # tim@thecarlson.family,paperkey@thecarlson.family
 
+    # tim@thecarlson.family,
+    # paperkey@thecarlson.family 
+    pgp: >-
+      7ADB02229B0F91BE91109FFB9686EC3B7435D942,
+      47EE5DA257D80E4516327A83F6B36473C28DB65E
+    
+    # tim@thecarlson.family,
+    # paperkey@thecarlson.family 
+    age: >-
+      age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz,
+      age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63
+  
   - path_regex: keys/by-domain/thecarlson.family/automation@thecarlson.family/*
-    pgp: "7ADB02229B0F91BE91109FFB9686EC3B7435D942,47EE5DA257D80E4516327A83F6B36473C28DB65E,E01365372462B85F1BF41CABC50E2D8358CCEFD8" # tim@thecarlson.family,paperkey@thecarlson.family,automation@thecarlson.family
-    age: "age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz,age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63,age15lnnkspx4hxcwesd3d585ur36xgn74lnhkae7sy2ennp9r6au5ps2rdp2x" # tim@thecarlson.family,paperkey@thecarlson.family,automation@thecarlson.family
+    
+    # tim@thecarlson.family,
+    # paperkey@thecarlson.family,
+    # automation@thecarlson.family
+    pgp: >-
+      7ADB02229B0F91BE91109FFB9686EC3B7435D942,
+      47EE5DA257D80E4516327A83F6B36473C28DB65E,
+      E01365372462B85F1BF41CABC50E2D8358CCEFD8
+    
+    # tim@thecarlson.family,
+    # paperkey@thecarlson.family,
+    # automation@thecarlson.family  
+    age: >-
+      age15w96fjtkg0f7hc628x4yj8z6asgqka4j0428qu5s55r0e9nf0cdqlyp2sz,
+      age1ktfj8cxnlvff6shs9vg0aw0qxuxv8lvcg7ur0n2xv99atfexxcaqd3ls63,
+      age15lnnkspx4hxcwesd3d585ur36xgn74lnhkae7sy2ennp9r6au5ps2rdp2x
 
